@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Text;
@@ -16,6 +17,11 @@ namespace TechJobs.Models
 
             // Bonus mission: return a copy
             return new List<Dictionary<string, string>>(AllJobs);
+        }
+
+        internal static dynamic FindByColumnAndValue()
+        {
+            throw new NotImplementedException();
         }
 
         /*
